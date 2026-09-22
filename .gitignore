@@ -1,0 +1,5 @@
+# cmake
+build/
+
+# clang (...d maybe)
+.cache/
