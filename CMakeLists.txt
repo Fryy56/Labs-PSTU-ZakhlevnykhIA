@@ -23,3 +23,8 @@ file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS "bachelor/sem1/informatics/lab${LAB_
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 include(cmake/resolve-includes.cmake)
+
+include(cmake/CPM.cmake)
+CPMAddPackage("gh:fmtlib/fmt#12.2.0")
+
+target_link_libraries(${PROJECT_NAME} PRIVATE fmt)
