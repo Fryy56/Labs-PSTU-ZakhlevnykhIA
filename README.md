@@ -1,5 +1,26 @@
 # Лабораторные ПНИПУ
-TODO
+Мои лабораторные работы
+
+## О Себе
+Я - _Захлевных Иван Алексеевич_, учусь в группе **ИВТ-26-1б**. Основная часть собственных проектов у меня находится на [основном аккаунте](https://github.com/Fryy55) с _50+ репозиториями_ и следующими статистиками:
+
+[![yeee](https://github-readme-stats-rose-eta-86.vercel.app/api/top-langs/?username=Fryy55&theme=midnight-purple&layout=compact)](https://github.com/anuraghazra/github-readme-stats)\
+[![yeee](https://github-readme-stats-rose-eta-86.vercel.app/api?username=Fryy55&count_private=true&theme=midnight-purple&hide=contribs&line_height=15)](https://github.com/anuraghazra/github-readme-stats)
+
+По большей части я провожу свободное время работая над разного рода [библиотеками](https://github.com/Fryy55/cavansite), [модами](https://github.com/Fryy55/amber) и различными [проектами низкого уровня](https://github.com/Fryy55/bfc)
+
+Меня особенно интересует _процессорная микроархитектура_, _цифровой дизайн_ и _разработка ASIC-ов_. Из языков я в основном пишу на **C++** (зная его на искренне впечатляющем уровне), **AMD64 ASM** (как правило под _System V AMD64 ABI_) и **Verilog**
+
+<div align=center>
+    <img src="./.github/images/azu.jpg" alt="картинка потому что попросили" height=200 width=700 />
+</div>
+
+## Таблица Лабораторных Работ
+TODO (я не помню заголовки 💔)
+<!-- |🕐 В процессе выполнения|✅ Выполнено|❌ Не выполнено| -->
+| #   |     | Статус                   |
+| --- | --- | ------------------------ |
+| 0   |     | 🕐 В процессе выполнения |
 
 ## Лицензия
 Этот репозиторий распространяется под **MIT Лицензией**.
