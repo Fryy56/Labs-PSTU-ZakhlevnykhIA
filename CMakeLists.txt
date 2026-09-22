@@ -24,6 +24,8 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 include(cmake/resolve-includes.cmake)
 
+target_compile_options(${PROJECT_NAME} PRIVATE -march=native -masm=intel)
+
 include(cmake/CPM.cmake)
 CPMAddPackage("gh:fmtlib/fmt#12.2.0")
 
