@@ -24,7 +24,12 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 include(cmake/resolve-includes.cmake)
 
-target_compile_options(${PROJECT_NAME} PRIVATE -march=native -masm=intel)
+include(CheckCompilerFlag)
+check_compiler_flag(CXX "-march=native" NATIVE-GCC-CLI-ARCH)
+if (NATIVE-GCC-CLI-ARCH)
+    target_compile_options(${PROJECT_NAME} PRIVATE -march=native)
+    message(STATUS "Optimizing for the native architecture")
+endif()
 
 include(cmake/CPM.cmake)
 CPMAddPackage("gh:fmtlib/fmt#12.2.0")

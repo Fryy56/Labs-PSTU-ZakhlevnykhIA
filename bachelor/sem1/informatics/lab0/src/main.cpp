@@ -15,6 +15,8 @@
 int main() {
 	#if LAB_IS_SUPPORTED
 		asm volatile (R"(
+			.intel_syntax noprefix
+
 			mov edi, 1
 			lea rsi, [rip + str]
 			mov edx, 13
