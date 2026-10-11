@@ -34,4 +34,10 @@ endif()
 include(cmake/CPM.cmake)
 CPMAddPackage("gh:fmtlib/fmt#12.2.0")
 
-target_link_libraries(${PROJECT_NAME} PRIVATE fmt)
+set(CMAKE_SUPPRESS_DEVELOPER_WARNINGS TRUE)
+set(CMAKE_WARN_DEPRECATED FALSE FORCE)
+CPMAddPackage("gh:eliaskosunen/scnlib@4.0.1")
+set(CMAKE_SUPPRESS_DEVELOPER_WARNINGS FALSE)
+set(CMAKE_WARN_DEPRECATED TRUE FORCE)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE fmt scn)
